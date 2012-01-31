@@ -1,0 +1,103 @@
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+#left {
+	width: 260px;
+	float: left;
+}
+
+#right {
+	width: 700px;
+	float: right;
+}
+
+#hours{
+	margin: 0 auto;
+	position:fixed;
+	width: 170px;
+	top: 115px;	
+	padding:10px;
+	height:200px;
+	margin-left:8px;
+}
+
+#navigation {
+	list-style-type: none;
+}
+
+#navigation li {
+	float: left;
+	margin-right: 3px;
+}
+
+#navigation li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 13px 9px 0;
+	display: block;
+	width: 97px;
+	height: 35px;
+}
+
+#bottom_right {
+	position: absolute;
+	top: 115px;
+	width: 587px;
+}
+
+#BRL, #BRR {
+	width:265px;
+	padding:10px;
+	height: 300px;
+}
+
+#BRL{
+	float:left;
+}
+
+#BRR{
+	float:right;
+}
+
+.black{	
+	background-color: rgba(0,0,0,.8);
+}
+
+#navigation li {
+	background-color: rgba(0,0,0,.8);
+}
+
+
+html{
+	color: #fff;
+	font-family: "Helvetica Neue";
+	font-weight: 250;
+}
+
+.scroll-pane
+{
+	overflow: auto;
+	height: 300px;
+}
+
+.jspVerticalBar {
+	width: 9px;
+}
+
+#BRR, #BRL{
+	padding-top: 30px;
+}
+
+.box_title {
+	color: #000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FFF;
+	height: 20px;
+	padding: 4px 12px;
+}
